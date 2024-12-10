@@ -5,12 +5,14 @@ import Patient from "./pages/Patient";
 
 function App() {
     return (
-        <Router>
-            <Routes>
-                <Route path="/" element={<Hero />} />
-                <Route path="/patient" element={<Patient />} />
-            </Routes>
-        </Router>
+        <div className="bg-bg-image bg-cover bg-no-repeat bg-center min-h-screen">
+            <Router>
+                <Routes>
+                    <Route path="/" element={<Hero />} />
+                    <Route path="/patient" element={<Patient />} />
+                </Routes>
+            </Router>
+        </div>
     );
 }
 
