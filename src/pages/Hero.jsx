@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function Hero() {
     return (
-        <>
+        <div className="bg-bg-image bg-cover bg-no-repeat bg-center min-h-screen opacity-50">
             <div className="flex items-center justify-center h-auto">
                 <div className="w-full max-w-6xl px-4">
                     <h1 className="py-16 text-5xl font-bold text-center text-dark mb-8">
@@ -25,7 +25,7 @@ function Hero() {
                     </div>
                 </div>
             </div>
-        </>
+        </div>
     );
 }
 
