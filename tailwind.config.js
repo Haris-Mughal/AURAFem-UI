@@ -8,6 +8,9 @@ export default {
                 secondary: "#494949",
                 dark: "#000",
             },
+            backgroundImage: {
+                "bg-image": "url('/background.jpg')",
+            },
         },
     },
     plugins: [],
