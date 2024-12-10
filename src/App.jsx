@@ -5,7 +5,7 @@ import Patient from "./pages/Patient";
 
 function App() {
     return (
-        <div className="bg-bg-image bg-cover z-0 bg-no-repeat bg-center min-h-screen opacity-50">
+        <div className="bg-bg-image bg-cover bg-no-repeat bg-center min-h-screen opacity-50">
             <Router>
                 <Routes>
                     <Route path="/" element={<Hero />} />
