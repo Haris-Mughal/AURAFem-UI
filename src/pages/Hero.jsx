@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Hero() {
     return (
         <>
@@ -8,12 +10,12 @@ function Hero() {
                     </h1>
 
                     <div className="flex flex-col md:flex-row gap-4">
-                        <a
-                            href="/patient"
+                        <Link
+                            to="/patient"
                             className="flex-1 h-[300px] flex justify-center items-center bg-secondary text-3xl font-semibold text-center py-8 rounded-md shadow-md cursor-pointer"
                         >
                             Patient
-                        </a>
+                        </Link>
                         <div className="flex-1 h-[300px] flex justify-center items-center bg-secondary text-3xl font-semibold text-center py-8 rounded-md shadow-md cursor-pointer">
                             Doctor
                         </div>
