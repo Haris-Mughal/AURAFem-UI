@@ -22,13 +22,13 @@ const MessageInput = ({ onSendMessage }) => {
     };
 
     return (
-        <div className="flex items-center p-4 bg-secondary border-t border-gray-600">
+        <div className="flex items-center p-4 bg-secondary rounded-lg border-t border-gray-600">
             <input
                 type="text"
                 value={inputText}
                 onChange={handleInputChange}
-                onKeyDown={handleKeyDown} // Trigger send on Enter key
-                placeholder="Type your message..."
+                onKeyDown={handleKeyDown}
+                placeholder="Type your query..."
                 className="flex-1 p-3 rounded-lg border border-gray-500 text-black focus:outline-none focus:ring-2 focus:ring-primary"
             />
             <button

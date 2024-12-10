@@ -9,7 +9,7 @@ const Message = ({ sender, text }) => {
                 sender === "patient" ? "text-right" : "text-left"
             }`}
         >
-            <p className="text-sm text-gray-400">
+            <p className="text-sm text-gray-800">
                 {sender === "bot" ? "AURAFem" : "Patient"}
             </p>
             <p
