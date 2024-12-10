@@ -15,12 +15,19 @@ const MessageInput = ({ onSendMessage }) => {
         }
     };
 
+    const handleKeyDown = (e) => {
+        if (e.key === "Enter") {
+            handleSend();
+        }
+    };
+
     return (
         <div className="flex items-center p-4 bg-secondary border-t border-gray-600">
             <input
                 type="text"
                 value={inputText}
                 onChange={handleInputChange}
+                onKeyDown={handleKeyDown} // Trigger send on Enter key
                 placeholder="Type your message..."
                 className="flex-1 p-3 rounded-lg border border-gray-500 text-black focus:outline-none focus:ring-2 focus:ring-primary"
             />
