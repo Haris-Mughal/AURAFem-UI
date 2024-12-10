@@ -1,6 +1,6 @@
 import "./App.css";
-import Hero from "./pages/Hero";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Hero from "./pages/Hero";
 import Patient from "./pages/Patient";
 
 function App() {
